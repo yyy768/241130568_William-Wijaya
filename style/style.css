@@ -16,3 +16,24 @@ header {
   object-fit: cover;
   margin-right: 15px;
 }
+
+.details {
+  margin: 3px;
+}
+
+.quantity {
+  display: flex;
+}
+
+.quantity input {
+  width: 50px;
+  text-align: center;
+}
+
+.quantity button {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+}
