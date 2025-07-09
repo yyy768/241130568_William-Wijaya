@@ -122,6 +122,20 @@
         <p>$60</p>
       </div>
     </div>
+  
+    <div class="order-summary">
+      <h2>Order Summary</h2>
+      <form id="order-form">
+        <input for ="text" id="name" placeholder="Name" required />
+        <input type = "email" id="email" placeholder="Email" required />
+        <input type = "text" id="promo-code" placeholder = "Promo Code" required />
+
+        <button type="reset" id="reset-button" class="btn reset-btn">Reset</button>
+        <button type="submit" id="apply-btn" class="btn apply-btn">Apply</button>        
+      </form>
+      <div id="result-display" class="result-display"></div>
+      </div>
+    </div>
   </body>
   <script src="./script/jquery-3.7.1.min.js"></script>
   <script src="./script/script.js"></script>
